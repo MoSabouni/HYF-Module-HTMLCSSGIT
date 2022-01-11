@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-weight: bold;
+}
+
+.container {
+    background-color: whitesmoke;}
+
+li {
+    margin:15px;
+    padding:7px;
+    border-radius: 7px;
+}
+
+h1 {
+    font-size: 80px;}
+h2 {
+    font-size:30px;}
+p{
+    line-height:1.7em;}
+
+
+
+main{
+    margin:auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+        "box1 box1"
+        "box2 box3"
+        "box4 box4"
+        "box5 box6"
+        "box5 box6"
+        "box7 box7"
+        ;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+}
+
+.box-item {
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+    border-radius: 20px;
+}
+
+.Box1 {
+    grid-area: box1;
+    background-color: rgb(86, 184, 184);
+}
+
+.Box2 {
+    grid-area: box2;
+}
+img {border-radius: 20px;}
+
+.Box3 {
+    grid-area: box3;
+    background-color: tomato;
+}
+.Box3 li {background-color: rgb(255, 180, 167);}
+
+.Box4 {
+    grid-area: box4;
+}
+.Box4 p {background-color:rgba(245, 245, 245, 0.664);
+        border-radius: 10px;
+    padding: 10px;}
+
+.Box5 {
+    grid-area: box5;
+    background-color:rgb(86, 184, 184);
+}
+.Box5 li {background-color: rgb(136, 214, 214);}
+
+.Box6 {
+    grid-area: box6;
+  
+}
+.Box6 li {background-color:rgba(245, 245, 245, 0.664);}
+
+.Box7 {
+    grid-area: box7;
+    background-color: tomato;
+}
+.Box7 li {background-color: rgb(255, 180, 167);}
+

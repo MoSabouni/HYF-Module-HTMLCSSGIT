@@ -1,0 +1,27 @@
+ASUS@DESKTOP-SSS6QAR MINGW64 ~
+$ cd desktop/hyf/
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf
+$ mkdir -p hyf-html-exercises/week1
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf
+$ cd hyf-html-exercises/week1
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf/hyf-html-exercises/week1
+$ touch New-File.txt .Hidden-File.txt
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf/hyf-html-exercises/week1
+$ ls
+New-File.txt
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf/hyf-html-exercises/week1
+$ ls -a
+./  ../  .Hidden-File.txt  New-File.txt
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf/hyf-html-exercises/week1
+$ { echo 'first message' && echo 'second message'; } >> New-File.txt
+
+ASUS@DESKTOP-SSS6QAR MINGW64 ~/desktop/hyf/hyf-html-exercises/week1
+$ cat New-File.txt
+first message
+second message
