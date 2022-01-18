@@ -9,23 +9,65 @@
     <title>Codecademy - Clone</title>
 </head>
 <body>
+    <!-- Header start -->
+    
     <header>
         <nav id="header-container" class="header-scroll">
             <ul>
                 <li class="logo"><img src="Codecademy logo.png" alt="Logo"></li>
-                <li><a href="#">Catalog</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Pro Pricing</a></li>
-                <li><a href="#">For Business</a></li>
+                <li><a href="#" class="hide-list-header">Catalog</a></li>
+                <li><a href="#" class="hide-list-header">Resources</a></li>
+                <li><a href="#" class="hide-list-header">Community</a></li>
+                <li><a href="#" class="hide-list-header">Pro Pricing</a></li>
+                <li><a href="#" class="hide-list-header">For Business</a></li>
             </ul>
-            <ul class="nav-alig-right">
-                <li><a href="#"><img src="Search logo.png" alt="Search-Logo"  class="search-logo"></a></li>
+            <ul class="nav-align-right">
+                <li><a href="#"><img src="Search logo.png" alt="Search-Logo"  class="search-logo hide-list-header"></a></li>
                 <li><a href="#">Log in</a></li>
+                <li class="menu"><a href="#">
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
-    <div style="height: 9900px;">sasaasas</div>
+    <!-- Header end -->
+
+    <!-- Main start -->
+
+    <main class="main-container">
+        <div class="main-wraper">
+            <div class="main-item">
+                <img class="main-image" src="main image.jpeg" alt="image of a girl">
+            </div>
+            <div class="main-item">
+                    <div class="vertical-flex">
+                        <h2>Join the millions learning to code with Codecademy for free</h2>
+                        <br>
+                        <label for="fname">Email:</label>
+                        <br>
+                        <input type="text" name="email" value="Email">
+                        <br>
+                        <label for="lname">Passowrd:</label>
+                        <br>
+                        <input type="text" name="Password" value="Password"><br>
+                        <br>
+                        <bottun type="submit" class="sign-btn">Sign up</bottun>
+                        
+                        <p>By signing up for Codecademy, you agree to Codecademy's Terms of Service & Privacy Policy.</p>
+                     </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Main start -->
     
+
+
 </body>
 </html>
