@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/apercu");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +7,60 @@
 }
 
 body {
-  font-family: ;
+  background-color: #fff0e5;
+  font-family: "Apercu", sans-serif;
+  font-family: "Apercu Mono", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  width: 100%;
+}
+
+img {
+  width: 130px;
+}
+
+#header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #fff0e5;
+}
+#header-container:hover {
+  background-color: #fff;
+  border-bottom: solid 1px black;
+}
+
+nav ul {
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-alig-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0;
+}
+nav li {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.search-logo {
+  width: 20px;
 }
