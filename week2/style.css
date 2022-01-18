@@ -18,7 +18,7 @@ li {
   list-style: none;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: inherit;
 }
@@ -117,18 +117,36 @@ input {
   height: 2rem;
 }
 .sign-btn {
-  border-radius: 4px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  font-size: 1rem;
-  min-width: 40px;
+  width: 80px;
   height: 40px;
+  border-radius: 4px;
+  padding: 4px 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  background-color: #3a10e5;
+  color: #fff;
 }
 .vertical-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.input {
+  padding: 0.8rem 0.5rem;
+} /* why not working ?*/
+
+.sign-up-logos {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sign-up-logos img {
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  background-color: #fff;
+  margin-right: 15px;
+  border: solid 1px black;
 }
 /* Main Ends */
