@@ -144,6 +144,39 @@ input {
 }
 /* Main Ends */
 
+/* Self pace section start */
+
+.self-container {
+  padding: 96px 130px;
+  background-color: #10162f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+}
+.self-wrapper {
+  min-width: 400px;
+}
+.self-wrapper img {
+  max-height: auto;
+  width: 100%;
+  min-width: 15rem;
+}
+.self-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+.self-wrapper li {
+  font-size: ;
+  padding: 8px 0 8px 8px;
+  margin-bottom: 16px;
+}
+.self-wrapper li:hover {
+  background-color: #3a10e5;
+}
+
+/* Self pace section end */
+
 /*Respnisve media */
 @media all and (max-width: 1050px) {
   .menu {
@@ -156,5 +189,8 @@ input {
     display: block;
     margin: auto;
     width: 80%;
+  }
+  .self-container {
+    flex-wrap: wrap;
   }
 }
