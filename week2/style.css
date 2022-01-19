@@ -124,6 +124,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 15% 0 15%;
 }
 .input {
   padding: 0.8rem 0.5rem;
